@@ -1,0 +1,17 @@
+##系统环境
+    ubuntu 15.04 
+##下载源码
+  [id]:<https://www.python.org/downloads/>
+  选择Linux版本
+##安装python3.4
+
+    xz -d Python-3.4.1.tar.xz
+    tar xf Python-3.4.1.tar -C /usr/local/src/
+    cd /usr/local/src/Python-3.4.1/
+    ./configure --prefix=/usr/local/python34
+    make -j2 && make install
+    前提是你对/usr/local/python34有权限。
+##添加 python3.4 相关命令到环境变量
+    vim /etc/bash.bashrc
+    PATH=$PATH:$HOME/bin:/usr/local/python34/bin
+    
