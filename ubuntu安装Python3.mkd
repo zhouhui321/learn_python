@@ -1,7 +1,7 @@
 ##系统环境
     ubuntu 15.04 
 ##下载源码
-  [id]:<https://www.python.org/downloads/>
+https://www.python.org/downloads/
   选择Linux版本
 ##安装python3.4
 
